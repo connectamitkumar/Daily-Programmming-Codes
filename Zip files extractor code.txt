@@ -1,0 +1,5 @@
+import zipfile
+target='/content/drive/MyDrive/train_data (2).zip'
+handle=zipfile.ZipFile(target)
+handle.extractall('/content/drive/MyDrive/train_data/images')
+handle.close()
